@@ -1,0 +1,22 @@
+[project]
+name = "prish_lang"
+version = "0.1.0"
+description = "Language dedicated to my kid. Just a fun project"
+authors = [
+    {name = "", email = "sarveshdev92@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+prish = "prish.main:main"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
